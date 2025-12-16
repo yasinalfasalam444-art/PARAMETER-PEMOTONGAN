@@ -28,8 +28,8 @@ html {
 }
 
 .ul-navbar {
-    display: flex;
-    height: 100%;
+display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
 }
@@ -428,6 +428,7 @@ table tbody tr:hover {
         font-size: 1.3rem;
     }
 }
+
 
 
 
