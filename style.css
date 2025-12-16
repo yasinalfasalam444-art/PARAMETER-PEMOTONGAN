@@ -22,43 +22,25 @@ html {
 }
 
 .navbar-container {
+    background-color: ;
     width: 100%;
-    background-color: #050E3C;
-    padding: 10px 0;
+    height: 10vh;
 }
 
 .ul-navbar {
     display: flex;
-    flex-wrap: wrap;
+    flex-wrap: wrap;        /* ⬅️ INI */
     justify-content: center;
     align-items: center;
 }
 
 .li-navbar {
-    list-style: none;
-    padding: 15px 20px;
-    margin: 5px;
-    font-size: 18px;
-}
-
-.a-navbar {
+    list-style-type: none;
+    padding: 20px;
     color: white;
-    text-decoration: none;
-    font-weight: 800;
+    margin: 5px;
+    font-size: 20px;
 }
-
-/* RESPONSIVE */
-@media (max-width: 576px) {
-    .ul-navbar {
-        flex-direction: column;
-    }
-
-    .li-navbar {
-        font-size: 16px;
-        padding: 10px;
-    }
-}
-
 
 .li-navbar:hover {
     background-color: #002455;
@@ -446,6 +428,7 @@ table tbody tr:hover {
         font-size: 1.3rem;
     }
 }
+
 
 
 
